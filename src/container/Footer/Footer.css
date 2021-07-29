@@ -1,0 +1,81 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hlGRuh {
+    color: white;
+    background-color: rgb(9, 21, 45);
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hlGRuh .social-icons {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.iBcdlu:hover {
+    color: rgb(233, 157, 1);
+}
+
+.iBcdlu {
+    cursor: pointer;
+}
+
+.simpl a{
+    font-size: 28px;
+    color: white;
+}
+
+.simpl a:hover{
+    color: rgb(255, 187, 0);
+}
+
+.hlGRuh p {
+    font-size: 16px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.hlGRuh h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.pas{
+    margin-top: 43px;
+}
+
+.iBcdlu {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 2px solid rgb(250, 245, 245);
+    margin-top: 15px;
+}
+.iBcdlu:hover{
+    border-bottom: 2px solid rgb(243, 200, 6);
+    margin-top: 15px;
+}
+a{
+    color: inherit;
+}

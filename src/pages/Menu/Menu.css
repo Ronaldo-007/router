@@ -1,0 +1,57 @@
+.menu{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)), url("https://osten-co.uz/images/index/home.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px -10px 30px 0px inset;
+    color: white;
+    height: calc(-70px + 130vh);
+    padding-top: 150px;
+    display: flex;
+    -moz-box-align: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+.container{
+    width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+.gap{
+    font-size: 60px;
+}
+.book{
+    font-size: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(254, 188, 34) !important;
+    box-shadow: rgba(233, 157, 1, 0.467) 0px 10px 20px -7px;
+}
+
+.btn{
+    border: 0;
+    font-weight: 700;
+    padding: 10px 20px;
+    font-size: 18px;
+    outline: currentcolor none 0px;
+}
+
+@media screen and (max-width: 992px) {
+    .gap{
+        font-size: 40px;
+    }
+
+    .book{
+        font-size: 22px;
+    }
+}
+
+ 
+
+
