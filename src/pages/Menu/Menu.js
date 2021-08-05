@@ -1,6 +1,10 @@
-import React from 'react'
+
 import Footer from '../../container/Footer'
+import Gallery from '../../container/Gallery'
+import Section from '../../container/Section'
+import Section2 from '../../container/Section2'
 import './Menu.css'
+
 
 const Menu = () => {
     return (<div className="App">
@@ -23,6 +27,9 @@ const Menu = () => {
             </div>
     
         </div>
+        <Section />
+        <Section2 />
+        <Gallery />
         <Footer />
     </div>
 

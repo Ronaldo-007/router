@@ -1,0 +1,29 @@
+/* .img{
+    width: 250px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.content{
+    height: 500px;
+    width: 100%;
+}
+
+.container{
+    width: 600px;
+    min-height: fit-content;
+}
+
+a .text{
+    flex: 0.5;
+    background-color: rgb(15, 15, 44);
+    color: white;
+    padding: 8px 39px;
+    border-radius: 5px 5px 0 0;
+}
+ a{
+     display: inline-block;
+ }
+a, .text{
+    text-decoration: none;
+} */

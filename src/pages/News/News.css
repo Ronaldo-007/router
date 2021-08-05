@@ -1,0 +1,46 @@
+
+ .container .card img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.card img{
+    width: 100% !important;
+}
+
+.card {
+    width: 100%;
+}
+
+.container .card {
+    overflow: hidden;
+    margin-top: 25px;
+}
+.card {
+    border-radius: 10px;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.container .card h4 {
+    overflow: hidden;
+    height: 60px;
+    text-align: center;
+}

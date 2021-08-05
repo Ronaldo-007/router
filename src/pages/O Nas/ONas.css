@@ -6,7 +6,6 @@
     color: white;
     height: 60vh;
     display: flex;
-    -moz-box-align: center;
     align-items: center;
     position: relative;
     min-height: 500px;
@@ -15,6 +14,7 @@
 .onas h1{
     font-size: 60px;
     font-weight: bold;
+    margin-left: 50px;
     text-shadow: 3px 3px black;
 }
 
@@ -100,3 +100,4 @@ p {
         font-size: 20px;
     }
 }
+

@@ -1,4 +1,7 @@
+import { faInstagram, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import Footer from '../../container/Footer'
 import './ONas.css'
 
 const ONas = () => {
@@ -6,7 +9,7 @@ const ONas = () => {
         <div className="onas">
             <div>
                 <h1>MODERN LIFT SYSTEMS</h1>
-                <p className="mx-5 px-5">Крупная лифтостроительная компания в Узбекистане!</p>
+                <p className=" px-5">Крупная лифтостроительная компания в Узбекистане!</p>
             </div>
         </div>
         <div className="content-sectionstyle__ContentSectionWrapper-sc-10yorwv-0 eTcwAR section-padding-only-top">
@@ -46,6 +49,8 @@ const ONas = () => {
                 </div>
             </div>
         </div>
+
+       <Footer />
     </div>
     )
 }

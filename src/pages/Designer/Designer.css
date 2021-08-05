@@ -1,0 +1,275 @@
+.onas {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)), url("https://osten-co.uz/images/index/about.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 500px;
+}
+
+.onas h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-shadow: 3px 3px black;
+}
+
+
+
+.new{
+    font-size: 23px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .onas h1{
+        font-size: 35px;
+        
+    }
+
+    .onas p{
+        font-size: 20px;
+    }
+}
+
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.jLYewO {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.col-md-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.col-md-5{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.hrMPpR {
+    position: sticky;
+    top: 90px;
+}
+
+.hrMPpR .lift-container {
+    position: relative;
+    width: 90%;
+}
+
+.hrMPpR .lift-container .lift-sidewall-handrail {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hrMPpR .lift-container img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .hrMPpR .lift-container img {
+        width: 250%;
+        height: auto;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }  
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.hrMPpR .lift-container .lift-mirror{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hrMPpR .lift-container .speckles{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hrMPpR .lift-container svg {
+    z-index: 2;
+    width: 100%;
+}
+
+.hrMPpR .lift-container svg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+svg {
+    overflow: hidden;
+}
+
+.hrMPpR .lift-parametres {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+ul {
+    margin-bottom: 1rem;
+}
+
+.col-md-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.col-md-7{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.jspppC {
+    margin-bottom: 50px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.jspppC .form-group {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+.col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-sm-4 .col-xl-3{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+label {
+    display: inline-block;
+}
+
+.col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-sm-8 .col-lg-9{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+ input {
+    overflow: visible;
+}
+ input {
+    margin: 0;
+    font-family: inherit;
+}
+
+.jspppC .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.jspppC .gallery-grid li {
+    height: 90px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.133) 0px 1px 4px 0px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+}
+
+.jspppC .gallery-grid {
+    list-style: outside none none;
+}
+
+.jspppC h1 {
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.jspppC .gallery-grid li:hover {
+    box-shadow: rgba(0, 0, 0, 0.267) 0px 2px 5px 0px;
+    transform: translateY(-1px) scale(1.02);
+}
+.jspppC .gallery-grid .square {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: white;
+    padding: 0px 15px;
+}
+.jspppC .gallery-grid li {
+    height: 90px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.133) 0px 1px 4px 0px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+}
+
+.jspppC .gallery-grid li img {
+    width: auto;
+    height: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}

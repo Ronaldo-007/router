@@ -1,10 +1,10 @@
-
-
-import React from 'react';
-import { Link } from 'react-router-dom'
+import React from 'react'
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import "./Navbar.css"
+import "./Navbar.css";
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+
+
 
 let menu = [
     { rasm: "https://osten-co.uz/images/osten.svg" },
@@ -21,16 +21,24 @@ let menu = [
 
 
 class Navbar extends React.Component {
+    
+
+
     state = { a: false }
 
     showNavbar = () => {
         this.setState((state) => {
             return { a: !state.a }
         })
-    }
 
+        
+    }
+      
+    
 
     render() {
+
+
         return <div className="bar py-4">
             <div className="container container-flied d-flex justify-content-between align-items-center ">
 
@@ -43,11 +51,12 @@ class Navbar extends React.Component {
 
                     <button className="btn btn__close" onClick={this.showNavbar}><FontAwesomeIcon icon={faTimes} /></button>
 
-                    
+                   
                 </div>
 
                 <button className="btn btn__open" onClick={this.showNavbar}><FontAwesomeIcon icon={faBars} /></button>
             </div>
+            
         </div>
 
     }

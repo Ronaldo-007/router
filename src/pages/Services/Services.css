@@ -1,0 +1,100 @@
+.onas {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)), url("https://osten-co.uz/images/index/about.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 500px;
+}
+
+.onas h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-shadow: 3px 3px black;
+}
+
+
+
+.new{
+    font-size: 23px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .onas h1{
+        font-size: 35px;
+        
+    }
+
+    .onas p{
+        font-size: 20px;
+    }
+}
+
+.section-padding-only-top {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jLYewO {
+    text-align: center;
+}
+
+.jLYewO h1 {
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: rgb(9, 21, 45);
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-3 {
+    max-width: 25%;
+}
+
+.col-md-3{
+    position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+}
+.col-md-9 {
+    max-width: 75%;
+}
+.col-md-9{
+    position: relative;
+width: 100%;
+padding-right: 15px;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+

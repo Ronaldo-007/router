@@ -1,0 +1,105 @@
+.onas {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)), url("https://osten-co.uz/images/index/about.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 500px;
+}
+
+.onas h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-shadow: 3px 3px black;
+}
+
+
+
+.new{
+    font-size: 23px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .onas h1{
+        font-size: 35px;
+        
+    }
+
+    .onas p{
+        font-size: 20px;
+    }
+}
+
+.section-padding-only-top {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.css-cxqlfv {
+    animation-duration: 700ms;
+    animation-timing-function: ease;
+    animation-delay: 0ms;
+    animation-name: animation-1wmrf3h;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.lmeosf .nav-item.active {
+    background-color: rgb(9, 21, 45);
+    color: white;
+}
+
+.nav-tabs .nav-link.active {
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.lmeosf .nav-item {
+    font-weight: 600;
+}
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+a {
+    text-decoration: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.kzfvsA img {
+    width: 80%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
