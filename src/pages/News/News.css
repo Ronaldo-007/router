@@ -25,8 +25,8 @@ img {
 .card {
     border-radius: 10px;
 }
-.shadow {
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+ .shadow {
+    box-shadow: rgb(17, 32, 69) 0px 6px 36px -20px;
 }
 .card {
     position: relative;
@@ -36,7 +36,6 @@ img {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
 }
 
 .container .card h4 {

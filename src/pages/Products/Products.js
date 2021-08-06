@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../../container/Footer'
+import Gallery2 from '../../container/Gallrey2/Gallrey2'
 import './Products.css'
 
 const Products = () => {
@@ -38,7 +39,7 @@ const Products = () => {
                     </div>
                     <div  aria-labelledby="noanim-tab-example-tab-UHJvZHVjdENhdGVnb3J5Tm9kZToy" role="tabpanel" aria-hidden="false" class="tab-pane active py-5 my-5">
                         <div className="mt-5 row">
-                            <div className="col-sm-6 col-md-4 col-lg-3 mt-2 css-sanqhm">
+                            <div className="col-sm-6 col-md-4 col-lg-3 mt-2 css-sanqhm col-sm-12">
                                 <div className="products-section__Product-fiwgrk-0 kzfvsA">
                                     <a className="mylink__ALink-v0deg6-0 iBcdlu w-100" rel="noopener noreferrer" href="/products/UHJvZHVjdE5vZGU6Mw==">
                                         <img src="https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/mls2_heV74LX.jpg" alt="no photo" />
@@ -46,7 +47,7 @@ const Products = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-sm-6 col-md-4 col-lg-3 mt-2 css-sanqhm">
+                            <div className="col-sm-6 col-md-4 col-lg-3 mt-2 css-sanqhm col-sm-12">
                                 <div className="products-section__Product-fiwgrk-0 kzfvsA">
                                     <a className="mylink__ALink-v0deg6-0 iBcdlu w-100" rel="noopener noreferrer" href="/products/UHJvZHVjdE5vZGU6Mg==">
                                         <img src="https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="no photo" />
@@ -54,7 +55,7 @@ const Products = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-sm-6 col-md-4 col-lg-3 mt-2 css-sanqhm">
+                            <div className="col-sm-6 col-md-4 col-lg-3 mt-2 css-sanqhm col-sm-12">
                                 <div className="products-section__Product-fiwgrk-0 kzfvsA">
                                     <a className="mylink__ALink-v0deg6-0 iBcdlu w-100" rel="noopener noreferrer" href="/products/UHJvZHVjdE5vZGU6MQ==">
                                         <img src="https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/mls2.jpg" alt="no photo" />
@@ -68,6 +69,7 @@ const Products = () => {
                 </div>
             </div>
         </div>
+        <Gallery2 />
         <Footer />
     </div>
     )

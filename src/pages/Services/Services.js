@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../../container/Footer'
+import Gallery2 from '../../container/Gallrey2/Gallrey2'
 import './Services.css'
 
 const Services = () => {
@@ -80,7 +81,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
-
+        <Gallery2 />
         <Footer />
     </div>
     )

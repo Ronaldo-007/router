@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../../container/Footer'
+import Gallery2 from '../../container/Gallrey2/Gallrey2'
 import './Production.css'
 
 const Production = () => {
@@ -87,6 +88,7 @@ const Production = () => {
                 </div>
             </div>
         </div>
+        <Gallery2 />
         <Footer />
     </div>
     )

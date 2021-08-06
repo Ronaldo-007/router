@@ -1,8 +1,11 @@
 
+import Alice from '../../container/Alice'
 import Footer from '../../container/Footer'
-import Gallery from '../../container/Gallery'
+import Gallery from '../../container/Gallrey'
+import Gallery2 from '../../container/Gallrey2/Gallrey2'
 import Section from '../../container/Section'
 import Section2 from '../../container/Section2'
+import Section4 from '../../container/Section4'
 import './Menu.css'
 
 
@@ -30,6 +33,9 @@ const Menu = () => {
         <Section />
         <Section2 />
         <Gallery />
+        <Section4 />
+        <Alice />
+        <Gallery2 />
         <Footer />
     </div>
 

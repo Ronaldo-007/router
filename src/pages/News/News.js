@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../../container/Footer'
+import Gallery2 from '../../container/Gallrey2/Gallrey2'
 import './News.css'
 
 const News = () => {
@@ -22,7 +23,7 @@ const News = () => {
                     <a href="#" >
                         <div className="card shadow">
                             <img src="images/OSTENm.jpg" alt="" />
-                            <h4 class="m-3">Построен новый лифт</h4>
+                            <h4 className="m-3">Построен новый лифт</h4>
                         </div>
                     </a>
                 </div>
@@ -31,7 +32,7 @@ const News = () => {
                     <a href="#" >
                         <div className="card shadow">
                             <img src="images/OSTENn.jpg" alt="" />
-                            <h4 class="m-3">РЕМОНТ И ОБСЛУЖИВАНИЕ ЭСКАЛАТОРОВ</h4>
+                            <h4 className="m-3">РЕМОНТ И ОБСЛУЖИВАНИЕ ЭСКАЛАТОРОВ</h4>
                         </div>
                     </a>
                 </div>
@@ -39,7 +40,7 @@ const News = () => {
                     <a href="#" >
                         <div className="card shadow">
                             <img src="images/OSTENb.jpg" alt="" />
-                            <h4 class="m-3">ДИСПЕТЧЕРИЗАЦИЯ</h4>
+                            <h4 className="m-3">ДИСПЕТЧЕРИЗАЦИЯ</h4>
                         </div>
                     </a>
                 </div>
@@ -47,12 +48,13 @@ const News = () => {
                     <a href="" >
                         <div className="card shadow">
                             <img src="images/liftpartner.png" alt="" />
-                            <h4 class="m-3">ПАССАЖИРСКИЕ ЛИФТЫ</h4>
+                            <h4 className="m-3">ПАССАЖИРСКИЕ ЛИФТЫ</h4>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
+        <Gallery2 />
         <Footer />
     </div>
     )

@@ -1,7 +1,8 @@
-import { faInstagram, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import React from 'react'
 import Footer from '../../container/Footer'
+import Gallery from '../../container/Gallrey'
+import Gallrey2 from '../../container/Gallrey2'
 import './ONas.css'
 
 const ONas = () => {
@@ -49,7 +50,8 @@ const ONas = () => {
                 </div>
             </div>
         </div>
-
+         <Gallery />
+         <Gallrey2 />
        <Footer />
     </div>
     )

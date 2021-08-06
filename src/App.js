@@ -24,10 +24,7 @@ let pages = [
   { paht: "/designer", component: <Designer /> },
   { paht: "/news", component: <News /> },
   { paht: "/contactus", component: <Contactus /> },
-  { component
-    
-    
-    : < Page404 /> }
+  { component: < Page404 /> }
 
 ]
 

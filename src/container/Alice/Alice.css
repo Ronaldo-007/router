@@ -1,0 +1,42 @@
+.alice {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.alice {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.637)), url("https://osten-co.uz/images/index/review.jpg");
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+}
+
+.go{
+    font-size: 35px;
+}
+
+.be{
+    font-size: 28px;
+}
+.alice-carousel__play-btn-wrapper {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .alice-carousel__play-btn-item{
+        margin-top: 30px;
+    }
+    
+    .be{
+        font-size: 22px;
+    }
+    .go{
+        font-size: 29px;
+    }
+}
